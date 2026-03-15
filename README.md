@@ -141,7 +141,7 @@ This project demonstrates:
 
 # 👨‍💻 Author
 
-Your Name
+Regency Patel
 
 ---
 
