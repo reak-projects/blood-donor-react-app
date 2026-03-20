@@ -1,70 +1,159 @@
-# Getting Started with Create React App
+# 🩸 Blood Donor Finder (React App)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple React application that helps users find blood donors quickly.
+Users can filter donors by blood group, search by city, and send a request for help.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Link (Deployed)
+```
+https://reak-projects.github.io/blood-donor-react-app
+```
 
-### `npm start`
+# 🚀 Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+* Fetch donor data from API
+* Filter donors by blood group
+* Search donors by city
+* View donor availability
+* Send request to donors
+* Show total available donors
+* Loading and empty state handling
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+# 🛠 Tech Stack
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* React.js
+* JavaScript (ES6)
+* CSS
+* Fetch API
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# 📦 Project Structure
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+blood-donor-app
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
+src
+ ├── App.js
+ ├── App.css
+ ├── index.js
+public
+package.json
+README.md
+```
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+# ⚙️ Installation
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Clone the repository
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```
+git clone https://github.com/YOUR_USERNAME/blood-donor-app.git
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+2. Navigate into the project folder
 
-## Learn More
+```
+cd blood-donor-app
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+3. Install dependencies
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```
+npm install
+```
 
-### Code Splitting
+4. Run the development server
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```
+npm start
+```
 
-### Analyzing the Bundle Size
+The app will run on:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```
+http://localhost:3000
+```
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+# 🌐 API Used
 
-### Advanced Configuration
+```
+https://jsonplaceholder.typicode.com/users
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+This API is used to simulate donor data.
 
-### Deployment
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+# 📸 Application Workflow
 
-### `npm run build` fails to minify
+1. React fetches donor data using `useEffect`
+2. Data is stored using `useState`
+3. Users can filter donors by blood group
+4. Users can search donors by city
+5. Clicking **Request Help** changes button to **Request Sent**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+
+# 🚀 Deployment (Hosting)
+
+You can deploy this project using:
+
+### GitHub Pages
+
+```
+npm install gh-pages --save-dev
+```
+
+Add this in `package.json`:
+
+```
+"homepage": "https://YOUR_USERNAME.github.io/blood-donor-app"
+```
+
+Add scripts:
+
+```
+"predeploy": "npm run build",
+"deploy": "gh-pages -d build"
+```
+
+Deploy:
+
+```
+npm run deploy
+```
+
+---
+
+# 🎯 Learning Concepts
+
+This project demonstrates:
+
+* React Hooks (`useState`, `useEffect`)
+* API fetching
+* Filtering and derived state
+* Conditional rendering
+* Component-based UI
+
+---
+
+# 👨‍💻 Author
+
+Regency Patel
+
+---
+
+# ⭐ Future Improvements
+
+* Add real donor database
+* Add authentication
+* Add Google Maps integration
+* Add request form
+* Improve UI using Tailwind CSS
