@@ -1,15 +1,13 @@
 {
   "files": {
-    "main.css": "/blood-donor-react-app/static/css/main.df132eb1.css",
-    "main.js": "/blood-donor-react-app/static/js/main.ca26e158.js",
-    "static/js/453.421f9337.chunk.js": "/blood-donor-react-app/static/js/453.421f9337.chunk.js",
+    "main.css": "/blood-donor-react-app/static/css/main.a524ad4f.css",
+    "main.js": "/blood-donor-react-app/static/js/main.a6b2d432.js",
     "index.html": "/blood-donor-react-app/index.html",
-    "main.df132eb1.css.map": "/blood-donor-react-app/static/css/main.df132eb1.css.map",
-    "main.ca26e158.js.map": "/blood-donor-react-app/static/js/main.ca26e158.js.map",
-    "453.421f9337.chunk.js.map": "/blood-donor-react-app/static/js/453.421f9337.chunk.js.map"
+    "main.a524ad4f.css.map": "/blood-donor-react-app/static/css/main.a524ad4f.css.map",
+    "main.a6b2d432.js.map": "/blood-donor-react-app/static/js/main.a6b2d432.js.map"
   },
   "entrypoints": [
-    "static/css/main.df132eb1.css",
-    "static/js/main.ca26e158.js"
+    "static/css/main.a524ad4f.css",
+    "static/js/main.a6b2d432.js"
   ]
 }
